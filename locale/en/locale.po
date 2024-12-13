@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-27T16:21:26+00:00\n"
+"PO-Revision-Date: 2020-11-27T16:21:26+00:00\n"
+"Language: en\n"
+
+msgid "plugins.block.articleMetrics.displayName"
+msgstr "Article and .onograph metrics plugin"
+
+msgid "plugins.block.articleMetrics.description"
+msgstr "This plugin displays download and view statistics for articles or monographs."
+
+msgid "plugins.block.articleMetrics.metrics"
+msgstr "Metrics"
+
+msgid "plugins.block.articleMetrics.total"
+msgstr "Total"
+
+msgid "plugins.block.articleMetrics.year"
+msgstr "Last year"
+
+msgid "plugins.block.articleMetrics.month"
+msgstr "Last month"
+
+msgid "plugins.block.articleMetrics.views"
+msgstr "Views"
+
+msgid "plugins.block.articleMetrics.downloads"
+msgstr "Downloads"

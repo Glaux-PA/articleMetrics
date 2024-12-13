@@ -1,0 +1,107 @@
+/* TÍTULO */
+
+.block_metrics h3 {
+  text-align: left;
+}
+
+/* CONTENEDOR */
+
+.block_metrics .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+/* CELDAS */
+
+.block_metrics .content > div {
+  padding: 24px 12px 12px;
+  background-color: rgba(204, 51, 0, 0.75);
+  color: #f4f4f4;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.block_metrics .content .metrics_total {
+  grid-column: 1 / 3;
+  background-color: #c30;
+}
+
+/* RÓTULOS */
+
+.block_metrics label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+/* BOTONES */
+
+.metric-buttons {
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+.metric-buttons button {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 3px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition: border-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+}
+
+.metric-buttons button:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.metric-buttons button:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+.metric-buttons button:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.metric-buttons button:focus {
+  outline: 1px transparent;
+}
+
+.metric-buttons button:before {
+  display: none;
+}
+
+.metric-buttons button:-webkit-details-marker {
+  display: none;
+}
+
+.selected {
+  border-color: #c30 !important;
+}
